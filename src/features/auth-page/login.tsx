@@ -29,7 +29,7 @@ export const LogIn: FC<LoginProps> = (props) => {
           <span className="text-primary">{AI_NAME}</span>
         </CardTitle>
         <CardDescription>
-          Nur für Aeberli Family
+          Der KI Assistent seht nur der Aeberli Family zur Verfügung.
         </CardDescription>
       </CardHeader>
       <CardContent className="grid gap-4">
