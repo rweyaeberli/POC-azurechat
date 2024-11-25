@@ -36,7 +36,7 @@ export const ChatHome: FC<ChatPersonaProps> = (props) => {
        
  <div className="container max-w-4xl flex gap-20 flex-col">
           <div>
-            <h2 className="text-2xl font-bold mb-3">Extensions</h2>
+            <h2 className="text-2xl font-bold mb-3">Disclaimer</h2>
 
             {props.extensions && props.extensions.length > 0 ? (
               <div className="grid grid-cols-3 gap-3">
@@ -51,7 +51,7 @@ export const ChatHome: FC<ChatPersonaProps> = (props) => {
                 })}
               </div>
             ) :
-              <p className="text-muted-foreground max-w-xl">No extentions created</p>
+              <p className="text-muted-foreground max-w-xl">{AI_DISCLAIMER}</p>
             }
 
           </div>
