@@ -34,14 +34,7 @@ export const ChatHome: FC<ChatPersonaProps> = (props) => {
           description={AI_DESCRIPTION}
 
         ></Hero>
-        <div className="container max-w-4xl flex gap-20 flex-col">
-          <div>
-            <h2 className="text-2xl font-bold mb-3">Disclaimer</h2>
-              <p className="text-muted-foreground max-w-xl">{AI_DISCLAIMER}</p>
-            
-
-          </div>
-
+       
  <div className="container max-w-4xl flex gap-20 flex-col">
           <div>
             <h2 className="text-2xl font-bold mb-3">Extensions</h2>
