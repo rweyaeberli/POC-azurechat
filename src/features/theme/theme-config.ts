@@ -1,5 +1,5 @@
-export const AI_NAME = "aeberli ChatGPT";
-export const AI_DESCRIPTION = "aeberli ChatGPT ist dein AI Assistent.";
+export const AI_NAME = "Aeberli ChatGPT";
+export const AI_DESCRIPTION = "Wir machen. Jetzt auch mit Unterstützung durch Künstliche Intelligenz.";
 export const CHAT_DEFAULT_PERSONA = AI_NAME + " default";
 
 export const CHAT_DEFAULT_SYSTEM_PROMPT = `You are a friendly ${AI_NAME} AI assistant. You must always return in markdown format.
